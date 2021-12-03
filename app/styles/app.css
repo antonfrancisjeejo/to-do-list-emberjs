@@ -1,0 +1,28 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  width: 400px;
+  height: 500px;
+  border-radius: 20px;
+  margin: auto;
+  box-shadow: 0 3px 12px 5px rgba(0, 0, 0, 0.3);
+  max-height: fit-content;
+}
+
+input {
+  padding: 10px;
+}
+
+button {
+  padding: 10px;
+}
+
+ul {
+  text-align: left;
+}
+
+li {
+  cursor: pointer;
+}
